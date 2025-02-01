@@ -3236,7 +3236,8 @@ hr.title-line {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
-    flex: 1
+    flex: 1;
+    margin-left: 10px;
 }
 
 .badge {
@@ -3379,7 +3380,14 @@ hr.title-line {
     position: relative;
     display: inline-block;
     height: auto;
-    width: auto
+    width: 60%;
+}
+
+.icon-masking-2 {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: auto;
 }
 
 .icon-masking .mask-icon {
@@ -6113,7 +6121,7 @@ a.text-theme:hover,
     display: block;
     position: relative;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
     color: var(--title-color);
     font-family: var(--title-font);
     text-transform: uppercase
@@ -6146,7 +6154,7 @@ a.text-theme:hover,
     position: relative
 }
 
-.main-menu ul li.menu-item-has-children>a:after {
+/* .main-menu ul li.menu-item-has-children>a:after {
     content: "\f078";
     position: relative;
     font-family: var(--icon-font);
@@ -6154,7 +6162,7 @@ a.text-theme:hover,
     font-weight: 600;
     top: 0;
     font-size: 1em
-}
+} */
 
 .main-menu ul li:last-child {
     margin-right: 0 !important
@@ -7656,7 +7664,7 @@ a.text-theme:hover,
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: 20px
+    gap: 2  0px
 }
 
 .footer-contact-wrap {
@@ -7664,8 +7672,9 @@ a.text-theme:hover,
     grid-template-columns: auto auto auto;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between
+    justify-content: space-between;
+    padding-left: 30px;
+    
 }
 
 .footer-contact_icon {

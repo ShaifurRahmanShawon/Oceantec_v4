@@ -4,6 +4,7 @@
     --theme-color: #684DF4;
     --theme-color2: #684DF4;
     --title-color: #141D38;
+    --footer-title-color: #e2e8fa;
     --body-color: #737887;
     --smoke-color: #F5F5F5;
     --smoke-color2: #E2E8FA;
@@ -7834,7 +7835,7 @@ a.text-theme:hover,
     content: "";
     height: 100%;
     width: calc(100% - 10px);
-    background-color: var(--title-color);
+    background-color: var(--footer-title-color);
     position: absolute;
     top: 0;
     left: 0;
